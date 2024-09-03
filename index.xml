@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LinkedPool</title>
+      <link>http://localhost:1313/posts/linkedpool/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/linkedpool/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Schokoban: Using Monte Carlo Tree Search for Solving Sokoban</title>
+      <link>http://localhost:1313/posts/schokoban/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/schokoban/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>About Paul</title>
+      <link>http://localhost:1313/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/about/</guid>
+      
+      <description>I&amp;rsquo;m currently pursuing my Master&amp;rsquo;s degree in Computer Science at Columbia University, New York, following my undergraduate studies in Mathematics at ETH Zürich.
+I am deeply curious and constantly seeking to expand my knowledge across various topics in Statistics and Computer Science. I advocate for first principles thinking, striving to thoroughly understand the intricacies of each subject I explore. Conversation is a vital tool for this kind of learning, and I’m always open to engaging discussions.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

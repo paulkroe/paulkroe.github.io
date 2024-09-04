@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Algorithms on Blog</title>
+    <link>http://localhost:1313/tags/ai-algorithms/</link>
+    <description>Recent content in AI Algorithms on Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 18 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ai-algorithms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Schokoban: Using Monte Carlo Tree Search for Solving Sokoban</title>
+      <link>http://localhost:1313/posts/schokoban/</link>
+      <pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/schokoban/</guid>
+      
+      <description>&lt;p&gt;In my Bachelor&amp;rsquo;s thesis, under the supervision of &lt;a href=&#34;https://people.math.ethz.ch/~jopeters/&#34;&gt;Professor Dr. Peters&lt;/a&gt;, I explored the application of Monte Carlo Tree Search (MCTS) to the puzzle game Sokoban. Sokoban challenges players to push boxes onto designated targets within a warehouse, becoming increasingly complex as the game progresses. My thesis presents a novel approach to manage redundant state representations within the Monte Carlo Search Tree, significantly enhancing the algorithm’s ability to solve problems. Below is a preview of the comparative results between the standard and improved algorithms.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

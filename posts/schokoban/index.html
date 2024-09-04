@@ -53,7 +53,7 @@
         },
         "datePublished": "2024-07-18",
         "description": "Bachelor's thesis applying Monte Carlo Tree Search to Sokoban",
-        "wordCount":  0 ,
+        "wordCount":  229 ,
         "mainEntityOfPage": "True",
         "dateModified": "2024-07-18",
         "image": {
@@ -191,13 +191,100 @@ stroke-linejoin="round" class="feather feather-home">
                 
             </header>
             
-    
-    <details class="toc" ZgotmplZ>
-        <summary><b>Table of Contents</b></summary>
-        <nav id="TableOfContents"></nav>
-    </details>
             <div class="page-content">
-                
+                <p><img alt="Sokoban Puzzle" src="/level_1.png" title="Sokoban Puzzle"></p>
+<p><em>Level 1 from the original Sokoban game</em></p>
+<p>In my Bachelor&rsquo;s thesis, under the supervision of <a href="https://people.math.ethz.ch/~jopeters/">Professor Dr. Peters</a>, I explored the application of Monte Carlo Tree Search to the puzzle game Sokoban. Sokoban challenges players to push boxes onto designated targets within a warehouse. Even though the rules of Sokoban are simple, they still allow for complex and engaging puzzles. The research presents a novel approach to manage redundant state representations within the Monte Carlo Search Tree, significantly enhancing the algorithm’s ability to solve problems. Below is a preview of the comparative results between the baseline and the improved algorithm.</p>
+<p><strong>Performance Comparison on CBC Level Collection:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Number of Iterations</th>
+          <th style="text-align: left">25</th>
+          <th style="text-align: left">50</th>
+          <th style="text-align: left">100</th>
+          <th style="text-align: left">500</th>
+          <th style="text-align: left">1000</th>
+          <th style="text-align: left">2000</th>
+          <th style="text-align: left">5000</th>
+          <th style="text-align: left">10000</th>
+          <th style="text-align: left">100000</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Vanillaban</td>
+          <td style="text-align: left">4</td>
+          <td style="text-align: left">12</td>
+          <td style="text-align: left">16</td>
+          <td style="text-align: left">38</td>
+          <td style="text-align: left">41</td>
+          <td style="text-align: left">44</td>
+          <td style="text-align: left">49</td>
+          <td style="text-align: left">49</td>
+          <td style="text-align: left">50</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Schokoban</td>
+          <td style="text-align: left">6</td>
+          <td style="text-align: left">20</td>
+          <td style="text-align: left">41</td>
+          <td style="text-align: left">60</td>
+          <td style="text-align: left">60</td>
+          <td style="text-align: left">60</td>
+          <td style="text-align: left">60</td>
+          <td style="text-align: left">60</td>
+          <td style="text-align: left">60</td>
+      </tr>
+  </tbody>
+</table>
+<p>The table shows the number of levels solved out of 60 in the <a href="https://www.cbc.ca/kids/games/play/sokoban">CBC Level Collection</a>.</p>
+<p><strong>Performance Comparison on Microban Level Collection:</strong></p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Number of Iterations</th>
+          <th style="text-align: left">25</th>
+          <th style="text-align: left">50</th>
+          <th style="text-align: left">100</th>
+          <th style="text-align: left">500</th>
+          <th style="text-align: left">1000</th>
+          <th style="text-align: left">2000</th>
+          <th style="text-align: left">5000</th>
+          <th style="text-align: left">10000</th>
+          <th style="text-align: left">100000</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">Vanillaban</td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left">1</td>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">22</td>
+          <td style="text-align: left">29</td>
+          <td style="text-align: left">34</td>
+          <td style="text-align: left">36</td>
+          <td style="text-align: left">44</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Schokoban</td>
+          <td style="text-align: left">0</td>
+          <td style="text-align: left">7</td>
+          <td style="text-align: left">18</td>
+          <td style="text-align: left">50</td>
+          <td style="text-align: left">60</td>
+          <td style="text-align: left">70</td>
+          <td style="text-align: left">77</td>
+          <td style="text-align: left">80</td>
+          <td style="text-align: left">90</td>
+      </tr>
+  </tbody>
+</table>
+<p>The table shows the number of levels solved out of 100 in the <a href="http://www.abelmartin.com/rj/sokobanJS/Skinner/David%20W.%20Skinner%20-%20Sokoban.htm">Microban Level Collection</a> by Skinner.</p>
+<p>The code developed for this thesis is available on my <a href="https://github.com/paulkroe/Schokoban">GitHub</a>, and the complete thesis can be downloaded <a href="/BSc_Thesis_at_SfS_Kroeger.pdf">here</a>.</p>
+
             </div>
         </article></main>
 </div>

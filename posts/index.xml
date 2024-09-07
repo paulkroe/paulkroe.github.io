@@ -33,16 +33,5 @@ From the start, I knew the application needed to be as seamless as possible to h
       
     </item>
     
-    <item>
-      <title>Resource Collection</title>
-      <link>http://localhost:1313/posts/text-books/</link>
-      <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/text-books/</guid>
-      
-      <description>&lt;p&gt;It seems cliché to have a list of textbooks on your blog, but I hope to give this list an extra spin. When I switched gears from mathematics to computer science, I had much to catch up on, but I did not want to spend any money on textbooks. Luckily, there are a lot of great resources out there that are free to use. Here are some freely available textbooks and lecture videos that I found helpful. In case you are wondering: No, I have not read all the books front to back.&lt;/p&gt;</description>
-      
-    </item>
-    
   </channel>
 </rss>

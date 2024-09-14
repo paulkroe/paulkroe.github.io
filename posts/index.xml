@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Naive Bayes for Text Classification</title>
+      <link>http://localhost:1313/posts/naive-bayes/</link>
+      <pubDate>Sat, 14 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/naive-bayes/</guid>
+      
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>LinkedPool</title>
       <link>http://localhost:1313/posts/linkedpool/</link>

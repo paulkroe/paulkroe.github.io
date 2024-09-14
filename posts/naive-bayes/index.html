@@ -1,52 +1,97 @@
-<!DOCTYPE html><html lang="en-gb" class="dark"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en-gb"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">Home | Blog</title>
-<meta property="og:title" content="Home | Blog" />
-<meta name="twitter:title" content="Home | Blog" />
-<meta itemprop="name" content="Home | Blog" />
-<meta name="application-name" content="Home | Blog" />
+<title itemprop="name">Naive Bayes for Text Classification | Blog</title>
+<meta property="og:title" content="Naive Bayes for Text Classification | Blog" />
+<meta name="twitter:title" content="Naive Bayes for Text Classification | Blog" />
+<meta itemprop="name" content="Naive Bayes for Text Classification | Blog" />
+<meta name="application-name" content="Naive Bayes for Text Classification | Blog" />
 <meta property="og:site_name" content="Paul&#39;s Log" />
 
-<meta name="description" content="Paul Kroeger&#39;s Personal Blog">
-<meta itemprop="description" content="Paul Kroeger&#39;s Personal Blog" />
-<meta property="og:description" content="Paul Kroeger&#39;s Personal Blog" />
-<meta name="twitter:description" content="Paul Kroeger&#39;s Personal Blog" />
+<meta name="description" content="Using Naive Bayes for classifying  20 Newsgroups dataset.">
+<meta itemprop="description" content="Using Naive Bayes for classifying  20 Newsgroups dataset." />
+<meta property="og:description" content="Using Naive Bayes for classifying  20 Newsgroups dataset." />
+<meta name="twitter:description" content="Using Naive Bayes for classifying  20 Newsgroups dataset." />
 
 <meta property="og:locale" content="en-gb" />
 <meta name="language" content="en-gb" />
 
-  <link rel="alternate" hreflang="en-gb" href="http://localhost:1313/" title="English" />
+  <link rel="alternate" hreflang="en-gb" href="http://localhost:1313/posts/naive-bayes/" title="English" />
 
 
 
 
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=2024-09-14T00:00:00Z />
+    <meta property="article:published_time" content=2024-09-14T00:00:00Z />
+    <meta property="og:url" content="http://localhost:1313/posts/naive-bayes/" />
+
+    
+    <meta property="og:article:author" content="Paul Kroeger" />
+    <meta property="article:author" content="Paul Kroeger" />
+    <meta name="author" content="Paul Kroeger" />
+    
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "Naive Bayes for Text Classification",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "2024-09-14",
+        "description": "Using Naive Bayes for classifying  20 Newsgroups dataset.",
+        "wordCount":  0 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "2024-09-14",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "Blog"
+        }
+    }
+    </script>
 
 
 <meta name="generator" content="Hugo 0.134.1">
 
     
-    <meta property="og:url" content="http://localhost:1313/">
+    <meta property="og:url" content="http://localhost:1313/posts/naive-bayes/">
   <meta property="og:site_name" content="Blog">
-  <meta property="og:title" content="Home">
-  <meta property="og:description" content="Paul Kroeger&#39;s Personal Blog">
+  <meta property="og:title" content="Naive Bayes for Text Classification">
+  <meta property="og:description" content="Using Naive Bayes for classifying  20 Newsgroups dataset.">
   <meta property="og:locale" content="en_gb">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-09-14T00:00:00+00:00">
 
 
     
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Home">
-  <meta name="twitter:description" content="Paul Kroeger&#39;s Personal Blog">
+  <meta name="twitter:title" content="Naive Bayes for Text Classification">
+  <meta name="twitter:description" content="Using Naive Bayes for classifying  20 Newsgroups dataset.">
 
 
     
 
-    <link rel="canonical" href="http://localhost:1313/">
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Blog">
-    <link href="/index.xml" rel="feed" type="application/rss+xml" title="Blog">
+    <link rel="canonical" href="http://localhost:1313/posts/naive-bayes/">
     <link href="/style.min.2d921c18cf1ec555ffc03d59a8adc211c402c68c930c27d6a0c306ab175a8d09.css" rel="stylesheet">
     <link href="/code-highlight.min.706d31975fec544a864cb7f0d847a73ea55ca1df91bf495fd12a177138d807cf.css" rel="stylesheet">
 
@@ -70,7 +115,7 @@
     <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
 
     </head>
-<body data-theme="dark" class="notransition">
+<body data-theme = "dark" class="notransition">
 
 <script src="/js/theme.js"></script>
 
@@ -97,14 +142,14 @@ stroke-linejoin="round" class="feather feather-home">
                 
                 
                 <li>
-                    <a class="menu-link active" href="/">
+                    <a class="menu-link " href="/">
                         Home
                     </a>
                     
                 </li>
                 
                 <li>
-                    <a class="menu-link " href="/posts/">
+                    <a class="menu-link active" href="/posts/">
                         Posts
                     </a>
                     
@@ -132,74 +177,31 @@ stroke-linejoin="round" class="feather feather-home">
         </div>
     </nav>
 </div>
-<div class="wrapper">
-        
 
-
-<div class="author">
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">Naive Bayes for Text Classification</h1>
+                
+                
+                <div class="post-meta">
+                    <time datetime="2024-09-14T00:00:00&#43;00:00" itemprop="datePublished"> 14 Sep 2024 </time>
+                </div>
+                
+            </header>
+            
     
-    
-    <img class="author-avatar" src="/avatar_hu13538182117466574804.webp" alt="Paul Kroeger" width="600"
-        height="600" />
-    
-    <h2 class="author-name">Hi,</h2>
-    <p class="author-bio">Here, I’ll share some of the projects I&#39;ve been working on. For more about myself, please visit the About page.</p>
+    <details class="toc" ZgotmplZ>
+        <summary><b>Table of Contents</b></summary>
+        <nav id="TableOfContents"></nav>
+    </details>
+            <div class="page-content">
+                
+            </div>
+        </article></main>
 </div>
-
-        <main aria-label="Content">
-            <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-            
-            
-            
-            
-            <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/naive-bayes/">Naive Bayes for Text Classification</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2024-09-14T00:00:00Z">
-        14 Sep 2024
-        
-    </time>
-</article>
-
-            
-            <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/linkedpool/">LinkedPool</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2024-09-01T00:00:00Z">
-        1 Sep 2024
-        
-    </time>
-</article>
-
-            
-            <article class="post-item">
-    <h4 class="post-item-title">
-        <a href="/posts/schokoban/">Schokoban: Using Monte Carlo Tree Search for Solving Sokoban</a>
-    </h4>
-    
-    
-    
-    
-    <time class="post-item-meta" datetime="2024-07-18T00:00:00Z">
-        18 Jul 2024
-        
-    </time>
-</article>
-
-            
-            
-        </main>
-    </div><footer class="footer">
+<footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 
@@ -258,5 +260,4 @@ stroke-linejoin="round" class="feather feather-home">
     
 
 </body>
-
 </html>

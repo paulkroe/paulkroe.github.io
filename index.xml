@@ -14,7 +14,9 @@
       
       <guid>http://localhost:1313/posts/naive-bayes/</guid>
       
-      <description></description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;h2 id=&#34;introduction-1&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Naive Bayes classifiers are simple yet powerful supervised learning algorithms commonly used for text classification tasks such as sentiment analysis, spam detection, language identification, and more. In this blog post, we will explore the theory behind Naive Bayes classifiers and implement one to categorize text in the &lt;a href=&#34;http://qwone.com/~jason/20Newsgroups/&#34;&gt;20 Newsgroups dataset&lt;/a&gt;. When first learning about Naive Bayes, I found the book &lt;a href=&#34;https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf&#34;&gt;&lt;em&gt;Speech and Language Processing&lt;/em&gt;&lt;/a&gt; by Daniel Jurafsky and James H. Martin extremely helpful.&lt;/p&gt;</description>
       
     </item>
     

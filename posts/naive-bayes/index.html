@@ -53,7 +53,7 @@
         },
         "datePublished": "2024-09-14",
         "description": "Using Naive Bayes for classifying  20 Newsgroups dataset.",
-        "wordCount":  1109 ,
+        "wordCount":  1106 ,
         "mainEntityOfPage": "True",
         "dateModified": "2024-09-14",
         "image": {
@@ -244,11 +244,11 @@ stroke-linejoin="round" class="feather feather-home">
 $$</p>
 <p>To estimate $P(c \mid d) we apply <strong>Bayes&rsquo; theorem</strong>. According to Bayes&rsquo; theorem:</p>
 <p>$$
-P(c \mid d) = \frac{P(d \mid c) , P(c)}{P(d)}
+P(c \mid d) = \frac{P(d \mid c) P(c)}{P(d)}
 $$</p>
 <p>Substituting this into our classification rule, we get:</p>
 <p>$$
-\hat{c} = \arg\max_{c \in \mathcal{C}} \frac{P(d \mid c) , P(c)}{P(d)} = \arg\max_{c \in \mathcal{C}} P(d \mid c) , P(c)
+\hat{c} = \arg\max_{c \in \mathcal{C}} \frac{P(d \mid c) P(c)}{P(d)} = \arg\max_{c \in \mathcal{C}} P(d \mid c) P(c)
 $$</p>
 <p>The second equality holds because $P(d)$ is constant with respect to $c$ and does not affect the maximization. Here, $P(d \mid c)$ is called <strong>likelihood</strong>, and $P(c)$ is refered to as <strong>prior</strong> probability of class $c$.</p>
 <h3 id="estimating-the-prior">Estimating the Prior</h3>
